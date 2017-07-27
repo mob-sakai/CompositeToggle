@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb8562d33c694961b41a5569562a9d1, type: 3}
+  m_Name: Demo - Desctiption
+  m_EditorClassIdentifier: 
+  m_BaseStyleAsset: {fileID: 0}
+  m_Properties:
+  - m_MethodId: UnityEngine.UI.Text, UnityEngine.UI;System.Int32, mscorlib;set_fontSize
+    m_MethodTargetType: UnityEngine.UI.Text, UnityEngine.UI
+    m_ParameterType: System.Int32, mscorlib
+    m_MethodName: set_fontSize
+    m_ParameterListJson: '{"m_List":[16]}'
+    m_ObjectParameterList:
+      m_List: []
+  - m_MethodId: UnityEngine.UI.Text, UnityEngine.UI;UnityEngine.Color, UnityEngine;set_color
+    m_MethodTargetType: UnityEngine.UI.Text, UnityEngine.UI
+    m_ParameterType: UnityEngine.Color, UnityEngine
+    m_MethodName: set_color
+    m_ParameterListJson: '{"m_List":[{"r":1.0,"g":1.0,"b":1.0,"a":1.0}]}'
+    m_ObjectParameterList:
+      m_List: []
+  - m_MethodId: UnityEngine.UI.Text, UnityEngine.UI;UnityEngine.FontStyle, UnityEngine;set_fontStyle
+    m_MethodTargetType: UnityEngine.UI.Text, UnityEngine.UI
+    m_ParameterType: UnityEngine.FontStyle, UnityEngine
+    m_MethodName: set_fontStyle
+    m_ParameterListJson: '{"m_List":[0]}'
+    m_ObjectParameterList:
+      m_List: []
