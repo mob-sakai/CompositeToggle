@@ -1144,10 +1144,10 @@ RectTransform:
   - {fileID: 862109085}
   m_Father: {fileID: 655184054}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 231.5, y: -855.109}
+  m_SizeDelta: {x: 443, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &179310824
 MonoBehaviour:
@@ -2019,10 +2019,10 @@ RectTransform:
   - {fileID: 257043422}
   m_Father: {fileID: 655184054}
   m_RootOrder: 4
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 231.5, y: -1494.8245}
+  m_SizeDelta: {x: 443, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473939192
 MonoBehaviour:
@@ -4787,7 +4787,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 133268231}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.21944098
+  m_Size: 0.22362426
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
