@@ -579,6 +579,10 @@ namespace Mobcast.Coffee.Toggles
 			
 			foreach (var toggle in Resources.FindObjectsOfTypeAll<CompositeToggle>())
 			{
+				//　シーン上にないオブジェクトは除外されます.
+				if (!toggle.gameObject || !toggle.gameObject.scene.IsValid())
+					return;
+				
 				toggle.OnTransformParentChanged();
 				toggle.Reflesh();
 			}
