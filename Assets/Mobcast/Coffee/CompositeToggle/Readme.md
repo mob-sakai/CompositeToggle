@@ -20,7 +20,7 @@ Set values to properties you need, at same time, without other script.
 
 ## Usage
 
-1. Download [CompositeToggle.unitypackage](https://github.com/mob-sakai/CompositeToggle/raw/develop/CompositeToggle.unitypackage) and install to your project.
+1. Download [CompositeToggle.unitypackage](https://github.com/mob-sakai/CompositeToggle/raw/master/CompositeToggle.unitypackage) and install to your project.
 2. AddComponent `CompositeToggle` or `Style` to the GameObject.
 3. Enjoy!
 
@@ -126,6 +126,11 @@ Bake the properties from the Style or StyleAsset inspector.
 
 
 ## Release Notes
+
+### ver.0.1.1:
+
+* Fixed: InspectorGUI issue.
+* Fixed: Demo scene.
 
 ### ver.0.1.0:
 
